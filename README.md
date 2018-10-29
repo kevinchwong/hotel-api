@@ -36,7 +36,7 @@ And he is also an adviser of *MainHTTPserver*, because he can tell HTTPserver to
 If the server gets the permission from *RateLimitService*, it will return the result data by querying from *HotelDB*.
 
 
-### Files
+#### Files
 You can change :-
 - HTTP Server configuration in config.json    
 - Logging configuration in simplelogger.properties
@@ -97,7 +97,7 @@ Press ctrl-C to exit
 ```
 
 
-### Post Request
+#### Post Request
 I tested the server with PostMan
 ##### URL
 ```
