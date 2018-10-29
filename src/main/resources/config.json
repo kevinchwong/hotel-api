@@ -1,0 +1,22 @@
+{
+  "settings":{
+    "port":8000,
+    "numberOfThread":20,
+    "globalDefaultRateLimitPeriod":"10 seconds",
+    "rateLimitPeriodMap": {
+      "9123": "50 millis",
+      "9124": "2 seconds",
+      "9125": "250 millis",
+      "9126": "50 millis",
+      "9127": "550 millis",
+      "9128": "100 millis",
+      "9224": "8 millis"
+    },
+    "suspendingPeriod":"5 minutes",
+    "actorTimeoutLimit":"5 minutes",
+    "suspendDecisionTimeout":"100 millis",
+    "enableActorCleaner":true,
+    "cleanerInbetweenPeriod":"24 hour",
+    "cleanerGracePeriod":"1 minutes"
+  }
+}
